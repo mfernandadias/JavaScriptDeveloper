@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+<style>
+    body{
+        background:rgb(224, 185, 230);
+    }
+    h1 {
+        color: rgb(182, 71, 149);
+    }
+    h1 {
+        color: rgb(27, 13, 27);
+        text-align: center;
+    }
+    p {
+        color: rgb(136, 61, 146);
+        text-align: center;
+    }
+    
+
+</style>
+
+<body>
+
+    <h1>Meu Site</h1>
+    <p>Meu primeiro site está feito sendo feito junto de um curso da DIO</p>
+    <button id="btnTeste" type="button">
+        Teste
+    </button id>
+    <!--  http-server
+    HTML: linguagem de marcação de texto -->
+
+    <script>
+        const btnTeste = document.getElementById("btnTeste")
+        btnTeste.addEventListener("click", function () {
+            console.log('Click no botão!')
+        })
+    </script>
+</body>
+</html>
