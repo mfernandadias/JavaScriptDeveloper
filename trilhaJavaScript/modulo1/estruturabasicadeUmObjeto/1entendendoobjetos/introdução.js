@@ -22,4 +22,3 @@ pessoa.descrever = function() {
 pessoa.descrever(); */
 
 
-
