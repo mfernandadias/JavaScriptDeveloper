@@ -1,13 +1,17 @@
-const vitor = { 
+const pessoa = { 
     nome: 'Vitor J Guetrra', 
-    idade: 25
+    idade: 25,
+
+    descrever: function (){
+        this 
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
+    }
 };
-vitor.altura = 1.69;
+pessoa.descrever = function() {
+    console.log(`Meu nome é ${this.nome}`);
+}
 
-
-delete vitor.nome;
-
-console.log(vitor);
+pessoa.descrever();
 
 
 
