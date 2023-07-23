@@ -3,7 +3,7 @@ function gets() {
     return 10;
 }
 
-function printf(texto) {
+function print(texto) {
     console.log(texto);
 }
 
