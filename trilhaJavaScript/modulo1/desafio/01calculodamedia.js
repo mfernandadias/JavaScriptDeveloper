@@ -10,7 +10,7 @@ Recuperação
 
 */
 
-const { gets, print } = require('./auxiliares')
+const { gets, print } = require('./01auxiliares')
 
 const media = gets();
 
