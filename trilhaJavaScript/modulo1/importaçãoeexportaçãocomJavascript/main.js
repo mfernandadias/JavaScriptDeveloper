@@ -1,5 +1,5 @@
 
-const {gets, print } = require('./funçõesauxiliares');
+const { gets, print } = require('./funçõesauxiliares');
 
 const numerosSorteados = [];
 
