@@ -28,7 +28,7 @@ for (let i = 0; i < n; i++) {
           maiorNumeroPar = numero; 
         }
     } else  {
-       if(menorNumeroImpar === 0) {
+       if(menorNumeroImpar === 0  ) {
         menorNumeroImpar = numero;
        } else if (numero < menorNumeroImpar ) {
         menorNumeroImpar = numero;
