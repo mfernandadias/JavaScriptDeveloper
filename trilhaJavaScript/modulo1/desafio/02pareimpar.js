@@ -19,7 +19,7 @@ const {gets, print } = require('./02auxiliares')
 const n = gets();
 let maiorNumeroPar = 0;
 let maiorNumeroImpar = 0;
-let menorNumeroImpar = 0;
+let menorNumeroImpar = 1;
 
 for (let i = 0; i < n; i++) {
     const numero = gets();
