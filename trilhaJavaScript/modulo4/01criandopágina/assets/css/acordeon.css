@@ -1,0 +1,33 @@
+.acordeon {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+
+.acordeon .trigger {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;  
+    padding: 1rem 2rem;
+    font-size: 1.5rem; 
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: transparent; 
+    color: #d6d0d0;
+    border: none;
+}
+
+.acordeon .trigger::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-image: ;
+}
+
+.acordeon .content {
+    display: none;
+}
