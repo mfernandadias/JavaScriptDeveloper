@@ -37,3 +37,13 @@ const valorRetirada = parseFloat(gets());
 //TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
 
 //TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
+
+//maria fernanda 
+//
+///
+///
+///
+//
+//
+///
+//
